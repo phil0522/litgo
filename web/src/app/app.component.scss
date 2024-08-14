@@ -1,0 +1,40 @@
+:host {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background-color: blue;
+    height: 100%;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.sidebar.open {
+    width: 240px;
+}
+
+.sidebar.closed {
+    width: 48px;
+}
+
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: cyan;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+
+    background-color: orange;
+}

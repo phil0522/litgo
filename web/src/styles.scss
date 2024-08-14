@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+body,
+html {
+  box-sizing: border-box;
+
+  & .mat-expansion-panel {
+    box-sizing: border-box;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div {
+    flex-direction: column;
+}
+
+span {
+    flex-direction: row;
+}
+
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
